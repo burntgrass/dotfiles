@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 #customization stuff
-export PS1="\[\e[31m\][\[\e[m\]\[\e[33m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[34;40m\]\h\[\e[m\] \[\e[35m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\\$ "
+export PS1="\[\e[31m\][\[\e[m\]\[\e[33m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[34m\]\h\[\e[m\] \[\e[35m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\\$ "
 alias dot='/usr/bin/git --git-dir=/home/garlic/.dot/ --work-tree=/home/garlic'
 alias moo='apt'
 alias moos='sudo apt'
