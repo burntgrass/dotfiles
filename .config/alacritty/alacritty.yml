@@ -44,4 +44,4 @@ colors:
     white: '#ebdbb2'
 
 window:
- opacity: 1
+ opacity: 0.9
